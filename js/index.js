@@ -1,9 +1,9 @@
 let n = parseInt(prompt('Enter n'));
 alert(fib(n))
 function fib(n) {
- const a = 1, b = 2, c=1; 
+ let a = 0, b = 1, c=1; 
  for (let i = 1; i <= n; i++) {
- const c = a + b;
+ let c = a + b;
      a = b;
      b = c;
  }         
